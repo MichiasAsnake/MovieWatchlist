@@ -30,13 +30,13 @@ const res = await fetch(`https://www.omdbapi.com/?s=${movSearch}&type=Movie&apik
                 <text style="font-weight:bold; font-size:18px">${datatwo.Title}</text>
               <i class="fa-solid fa-star" style="color:orange"></i>${datatwo.imdbRating}
                 
-                <div style="display:flex; gap:20px; font-size:14px"> 
-                    <p>${datatwo.Runtime}</p> <p>${datatwo.Genre}</p> <p><i class="fa-solid fa-circle-plus" data-add="${datatwo.imdbID}"></i>Watchlist</p>
+                <div style="display:flex; gap:10px; font-size:13px"> 
+                    <p>${datatwo.Runtime}</p> <p>${datatwo.Genre}</p> <p><i id ="addWatch" class="fa-solid fa-circle-plus" data-add="${datatwo.imdbID}"></i>&nbsp;Watchlist</p>
                 </div>
                 
                 
                  
-                <div style="margin:-20px 0 0 0;width:360px">
+                <div style="margin:-20px 0 0 0;width:360px;color:grey">
                     <p>${datatwo.Plot}</p> 
                 </div> 
                 </div>
@@ -71,11 +71,10 @@ console.log('clicked!')
                 <text style="font-weight:bold; font-size:18px">${datathree.Title}</text>
                 <i class="fa-solid fa-star" style="color:orange"></i>${datathree.imdbRating}
               
-                
-                <div style="display:flex; gap:20px; font-size:14px"> 
+                <div style="display:flex; gap:10px; font-size:13px"> 
                     <p>${datathree.Runtime}</p> <p>${datathree.Genre}</p> 
                 </div>
-                <div style="margin:-20px 0 0 0;width:360px">
+                <div style="margin:-20px 0 0 0;width:345px;color: grey;">
                     <p>${datathree.Plot}</p> 
                 </div> 
                 </div>

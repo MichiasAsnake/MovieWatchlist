@@ -54,9 +54,11 @@ i{
     width:550px; 
     height: 150px;
     padding-top:50px;
-    background-image: linear-gradient(to bottom right, red, yellow);
+    background-image: url("Header.jpg");
+    background-size: 800px;
+    background-position: center;
     color: white;
-    text-shadow: 0px 0px 5px black;
+    text-shadow: 0px 0px 10px black;
 }
 
 #loadingimg{
@@ -80,4 +82,9 @@ i{
    
    #headerTxt{
        color:white;font-size:15px;margin-top:22px;
+   }
+   
+   #addWatch:hover{
+       color: grey;
+       cursor: pointer;
    }
