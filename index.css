@@ -1,0 +1,83 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+.frame{
+    border: 2px solid;
+    width: 550px;
+    height: 500px;
+    margin: 0 auto;
+     overflow: scroll;
+    overflow-x:hidden;
+    background-color: whitesmoke;
+   
+}
+.framed{
+    border: 2px solid;
+    width: 550px;
+    height: 500px;
+    margin: 0 auto;
+     overflow: scroll;
+    overflow-x:hidden;
+   background-color: whitesmoke;
+   
+}
+
+#addWatch{
+    cursor: pointer;
+}
+i{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#star{
+    font-size: 12px;
+    margin: 0 0 0 -110px;
+}
+
+#watchlist{
+    text-decoration: none;
+    color: black;
+    margin-top:11px;
+    font-size: 15px;
+}
+#movies{
+    overflow: hidden;
+    
+}
+
+.topbox{
+    border: 2px solid black; 
+    margin:20px auto 0 auto;
+    width:550px; 
+    height: 150px;
+    padding-top:50px;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+
+#loadingimg{
+    justify-content: center;
+    padding: 200px 240px;
+    opacity: 50%;
+}
+
+#clearWatch{
+    
+    padding: 8px;
+    border-radius: 20px;
+}
+#clearWatch:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+#headerTxt:hover{
+   color: lightgrey}
+   
+   #headerTxt{
+       color:white;font-size:15px;margin-top:22px;
+   }
