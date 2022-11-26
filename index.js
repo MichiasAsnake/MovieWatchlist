@@ -23,20 +23,20 @@ const res = await fetch(`https://www.omdbapi.com/?s=${movSearch}&type=Movie&apik
         ` 
         <div class="movieInput" style="display:flex;align-items:center;padding:10px">
                 <div> 
-                <img src="${datatwo.Poster}" style="width:110px;margin:2px 0 0 24px">
+                <img src="${datatwo.Poster}" style="width:160px;margin:2px 0 0 24px">
                 </div>
                 <div></div>
                 <div style="margin:0px 0 0 21px">
-                <text style="font-weight:bold; font-size:18px">${datatwo.Title}</text>
+                <text style="font-weight:bold; font-size:20px">${datatwo.Title}</text>
               <i class="fa-solid fa-star" style="color:orange"></i>${datatwo.imdbRating}
                 
-                <div style="display:flex; gap:10px; font-size:13px"> 
+                <div style="display:flex; gap:10px; font-size:16px"> 
                     <p>${datatwo.Runtime}</p> <p>${datatwo.Genre}</p> <p><i id ="addWatch" class="fa-solid fa-circle-plus" data-add="${datatwo.imdbID}"></i>&nbsp;Watchlist</p>
                 </div>
                 
                 
                  
-                <div style="margin:-20px 0 0 0;width:360px;color:grey">
+                <div style="margin:-20px 0 0 0;line-height:18px;color:grey">
                     <p>${datatwo.Plot}</p> 
                 </div> 
                 </div>
@@ -63,23 +63,26 @@ console.log('clicked!')
           html +=
          ` 
         <div class="movieInput" style="display:flex;align-items:center;padding:10px">
-                <div> 
-                <img src="${datathree.Poster}" style="width:110px;margin:2px 0 0 24px">
-                </div>
-                <div></div>
-                <div style="margin:0px 0 0 21px">
-                <text style="font-weight:bold; font-size:18px">${datathree.Title}</text>
-                <i class="fa-solid fa-star" style="color:orange"></i>${datathree.imdbRating}
-              
-                <div style="display:flex; gap:10px; font-size:13px"> 
-                    <p>${datathree.Runtime}</p> <p>${datathree.Genre}</p> 
-                </div>
-                <div style="margin:-20px 0 0 0;width:345px;color: grey;">
-                    <p>${datathree.Plot}</p> 
-                </div> 
-                </div>
-                </div>
-                <hr />
+         <div> 
+         <img src="${datathree.Poster}" style="width:160px;margin:2px 0 0 24px">
+         </div>
+         <div></div>
+         <div style="margin:0px 0 0 21px">
+         <text style="font-weight:bold; font-size:20px">${datathree.Title}</text>
+       <i class="fa-solid fa-star" style="color:orange"></i>${datathree.imdbRating}
+         
+         <div style="display:flex; gap:10px; font-size:16px"> 
+             <p>${datathree.Runtime}</p> <p>${datathree.Genre}</p>
+         </div>
+         
+         
+          
+         <div style="margin:-20px 0 0 0;line-height:18px;color:grey">
+             <p>${datathree.Plot}</p> 
+         </div> 
+         </div>
+         </div>
+         <hr />
         `
                 
         movArray = JSON.parse(localStorage.getItem("movie") || "[]");
