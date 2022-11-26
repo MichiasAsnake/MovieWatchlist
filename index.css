@@ -5,24 +5,25 @@ html, body {
 }
 
 .frame{
-    border: 2px solid;
-    width: 550px;
-    height: 500px;
+    border: 2px solid lightgray;
+    width: 1060px;
+    height: 799px;
     margin: 0 auto;
      overflow: scroll;
     overflow-x:hidden;
     background-color: whitesmoke;
+    border-top:0;
    
 }
 .framed{
-    border: 2px solid;
-    width: 550px;
-    height: 500px;
+    border: 2px solid lightgray;
+    width: 1060px;
+    height: 799px;
     margin: 0 auto;
      overflow: scroll;
     overflow-x:hidden;
-   background-color: whitesmoke;
-   
+    background-color: whitesmoke;
+   border-top:0;
 }
 
 #addWatch{
@@ -40,8 +41,8 @@ i{
 #watchlist{
     text-decoration: none;
     color: black;
-    margin-top:11px;
-    font-size: 15px;
+    margin-top:16px;
+    
 }
 #movies{
     overflow: hidden;
@@ -49,28 +50,32 @@ i{
 }
 
 .topbox{
-    border: 2px solid black; 
-    margin:20px auto 0 auto;
-    width:550px; 
+    border: 2px solid lightgray;
+    border-bottom: 0;
+    border-top: 0;
+    margin:0px auto 0 auto;
+    width:1060px; 
     height: 150px;
     padding-top:50px;
     background-image: url("Header.jpg");
-    background-size: 800px;
+    background-size: 138%;
     background-position: center;
     color: white;
     text-shadow: 0px 0px 10px black;
 }
 
 #loadingimg{
-    justify-content: center;
-    padding: 200px 240px;
+ 
+    padding: 300px 500px;
     opacity: 50%;
 }
 
 #clearWatch{
-    
-    padding: 8px;
+    margin: 20px 450px;
+    padding: 10px;
+    width:160px;
     border-radius: 20px;
+    border: 2px solid lightgray;
 }
 #clearWatch:hover{
     background-color: lightgrey;
@@ -81,10 +86,24 @@ i{
    color: lightgrey}
    
    #headerTxt{
-       color:white;font-size:15px;margin-top:22px;
+       color:white;font-size:18px;margin-top:29px;
    }
    
    #addWatch:hover{
        color: grey;
        cursor: pointer;
+   }
+
+   #search{
+    height:44px;
+    border: 2px solid lightgray;
+    border-left: 0;
+            border-radius: 0px 10px 10px 0px;
+             width:120px; 
+             margin: auto 0;
+
+   }
+
+   #search:hover{
+    cursor: pointer;
    }
