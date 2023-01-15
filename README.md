@@ -1,7 +1,10 @@
 # Movie Watchlist
 
-I am a primarily self taught Web Devleoper with in an intrest in front and back end development. On my own time I am currently exploring machine learning with Python and
-building on my current knowledge of data structures and algorithims. I love helping people create things that are accessible and usable for all.
+●Search movies results provided by the Movie Database API.
+
+●Create personal watchlists from your search results, saved to your local storage.
+
+●Created using Javascript, HTML, and CSS.
 
 ![Front list](https://user-images.githubusercontent.com/113400872/212503174-3213eec3-075e-421a-a9d9-8f10f880e23f.PNG)
 
