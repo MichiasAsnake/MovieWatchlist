@@ -1,4 +1,4 @@
-# Movie Watchlist
+# WatchNext
 
 ●Search movies results provided by the Movie Database API.
 
